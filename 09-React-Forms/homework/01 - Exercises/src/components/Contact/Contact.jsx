@@ -29,6 +29,11 @@ export default function Contact() {
       [event.target.name]: event.target.value
     }))
   }
+
+
+
+
+  console.log('seguimiento', errors);
   const handleSubmit = (event, valor = 1) => {
     event.preventDefault();
     valor = Object.keys(errors).length

@@ -13,9 +13,9 @@ export default function validate(input) {
 
     return errors;
 }
-const pruebas = validate({
-    name: "",
-    email: "henry@gmail.com",
-    message: "Mensaje Henry",
-})
-console.log(pruebas);
+// const pruebas = validate({
+//     name: "",
+//     email: "henry@gmail.com",
+//     message: "Mensaje Henry",
+// })
+// console.log(pruebas);
