@@ -3,7 +3,7 @@ import './Contact.modules.css'
 import validate from '../validation/validate'
 
 // eslint-disable-next-line
-const regexEmail = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
+// const regexEmail = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
 
 export default function Contact() {
 
@@ -24,10 +24,13 @@ export default function Contact() {
       // console.log(event);
       [event.target.name]: event.target.value
     })
-    setErrors(validate({
-      ...inputs,
-      [event.target.name]: event.target.value
-    }))
+    setErrors(validate(
+      {
+        ...inputs,
+        [event.target.name]: event.target.value
+      }
+    )
+    )
   }
 
 

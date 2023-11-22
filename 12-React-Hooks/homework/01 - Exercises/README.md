@@ -94,7 +94,7 @@ Estarás trabajando con algunos componentes y con las herramientas de Redux.
 
 ---
 
-## **👩‍💻 EJERCICIO 1**
+## **👩‍💻 EJERCICIO 1** -------------DONE YZEAFONS-------------
 
 El objetivo de este ejercicio es crear un formulario para que los usuarios puedan contactar y enviar un mensaje a la aplicación de la empresa.
 

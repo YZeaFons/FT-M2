@@ -1,8 +1,8 @@
-// const initialState = {
-//    list: [],
-//    storeName: ""
-// };
+const initialState = {
+    list: [],
+    storeName: ""
+};
 
-// const rootReducer = () => {};
+const rootReducer = () => { };
 
-// export default rootReducer;
+export default rootReducer;
